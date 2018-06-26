@@ -1,0 +1,72 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_rivistas()
+ *
+ * @ingroup themeable
+ */
+#}
+<style>
+    .slider .item{
+        text-align: center;
+        color: #fff;
+    }
+    .slider .item .views-field-field-audiencia{
+        font-size: 20px;
+    }
+    .slider .item .views-field-field-link a{
+        height: 35px;
+    width: 120px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: #Fff;
+    padding: 6px 12px;
+    }
+    .slider .item .views-field-field-link .field-content{
+        height: 50px
+    }
+    .slider .item .views-field-field-number{
+        font-size: 45px;
+        font-family: 'ProximanovaBold';
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .slider item img{
+        width: 100%
+    }
+</style>
+<section class="slide_rivistas">
+    <h1 class="default_section_heading text-center  center_on_mobile">
+
+        Rivistas
+
+    </h1>
+    <div class="slider">
+        {#     <div class="item">
+                 <div class="img-box">
+                     <img src="images/rev1.png" alt="" />		
+                 </div>
+                 <div class="bottom">
+                     <span>Audiencia</span>
+                     <p>14.000</p>
+                     <a href="#" class="btn">Ir a la web</a>
+                 </div>
+             </div>#}
+        {% for key,row in rows %}
+            <div{{ row.attributes }}  class="item">
+                {{ row.content }}
+            </div>
+        {% endfor %}    
+    </div>              
+</section>

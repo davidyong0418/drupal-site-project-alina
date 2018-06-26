@@ -1,0 +1,44 @@
+
+
+<!-- Header Section -->
+{% include directory ~ '/templates/header/header.html.twig' %}
+
+
+
+
+
+<section class="wrapper-page">
+    <div class="container">
+        <h1 style="font-family: 'ProximanovaBold'; font-size: 50px; color: #fff; margin-bottom: 50px; padding-left: 50px">
+            {{ site_title }}
+        </h1>
+    </div>
+
+
+
+    <div class=" bg_white" style=" padding-left: 100px">
+
+        {{ page.content }}
+
+
+    </div>
+</section>
+        Layout Event 1234
+<section>
+
+    {{page.quienes_somos_widget}}
+    {{page.member_widget}}
+
+</section>
+
+{% include directory ~ '/templates/contact/contact.html.twig' %}
+
+
+<!-- /Contact Form  Section -->
+
+{% include directory ~ '/templates/ads/banner_bottom.html.twig' %}
+<!-- Footer Section -->
+
+{% include directory ~ '/templates/footer/footer.html.twig' %}
+
+<!-- /Footer Section -->

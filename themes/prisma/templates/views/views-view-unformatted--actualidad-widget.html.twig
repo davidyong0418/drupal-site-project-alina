@@ -1,0 +1,9 @@
+
+{% for key,row in rows %}
+    {% set img = file_url(row['content']['#row']._entity.field_image.entity.fileuri)%}
+    <div class="post-item col-sm-4 col-xs-12">
+        <div class="post-bg imgResize-1-1" style="background-image: url('{{img}}');">
+            {{row.content}}
+        </div>
+    </div>
+{% endfor %} 

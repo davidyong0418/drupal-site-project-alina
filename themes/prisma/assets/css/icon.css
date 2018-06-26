@@ -1,0 +1,85 @@
+.icon {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  -webkit-mask: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/18515/heart.svg) no-repeat 50% 50%;
+  mask: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/18515/heart.svg) no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+}
+
+.icon-red { background-color: red; }
+.icon-orange { background-color: orange; }
+.icon-yellow { background-color: yellow; }
+.icon-green { background-color: green; }
+.icon-blue { background-color: blue; }
+.icon-indigo { background-color: indigo; }
+.icon-violet { background-color: violet; }
+
+.icon-cyan { background-color: cyan; }
+.icon-magenta { background-color: magenta; }
+.icon-lime { background-color: lime; }
+.icon-olive { background-color: olive; }
+.icon-maroon { background-color: maroon; }
+.icon-purple { background-color: purple; }
+
+.icon-white { background-color: white; }
+.icon-gray10 { background-color: #e5e5e5; }
+.icon-gray20 { background-color: #ccc; }
+.icon-gray30 { background-color: #b2b2b2; }
+.icon-gray40 { background-color: #999; }
+.icon-gray50 { background-color: #7f7f7f; }
+.icon-gray60 { background-color: #666; }
+.icon-gray70 { background-color: #4c4c4c; }
+.icon-gray80 { background-color: #333; }
+.icon-gray90 { background-color: #191919; }
+.icon-black { background-color: black; }
+
+.icon-gradient { 
+  background: -webkit-radial-gradient(50% 50%, red, white);
+  background: radial-gradient(50% 50%, red, white); 
+}
+
+.icon-kitten { 
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/18515/grumpy.jpeg) 50% 0%;
+  background-size: cover;
+}
+
+.icon-animation { 
+  background: red;
+  -webkit-animation: ❤ 6.66s infinite linear;
+  animation: ❤ 6.66s infinite linear; 
+}
+.facebook_32 {
+    width: 32px;
+  height: 32px;
+  display: inline-block;
+  -webkit-mask: url(/themes/prisma/assets/svg/facebook.svg) no-repeat 50% 50%;
+  mask: url(/themes/prisma/assets/svg/facebook.svg) no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+}
+.facebook_32-white { 
+    background-color: white;
+ }
+.facebook_32-hover { background-color: #e5e5e5; }
+
+@-webkit-keyframes ❤ {
+  0% { background-color: red; }
+  16% { background-color: orange; }
+  32% { background-color: yellow; }
+  48% { background-color: green; }
+  60% { background-color: blue; }
+  72% { background-color: indigo; }
+  84% { background-color: violet; }
+}
+
+@keyframes ❤ {
+  0% { background-color: red; }
+  16% { background-color: orange; }
+  32% { background-color: yellow; }
+  48% { background-color: green; }
+  60% { background-color: blue; }
+  72% { background-color: indigo; }
+  84% { background-color: violet; }
+}

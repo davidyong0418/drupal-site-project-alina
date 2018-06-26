@@ -1,0 +1,190 @@
+
+{%
+  set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+  ]
+%}
+
+{{ attach_library('classy/node') }}
+{%
+  set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+  ]
+%}
+{{ attach_library('classy/node') }}
+
+{% if(node.getType=="trademark")%}
+    <div class="col-md-3"><img class="factoria-img" src="{{ file_url(node.field_image.entity.fileuri) }}"></div>
+    <div class="col-md-9">
+        <div class="factoria-content">
+            <h1>{{node.getTitle()}}</h1>
+            {{ content }}
+        </div>
+    </div>
+{%endif%}
+
+{% if(node.getType=="rivistas")%}
+    <div class="inter-ct-right col-sm-7 col-sm-push-4">
+        <div class="revi-content">
+            <h1 class="title">{{node.getTitle()}}</h1>
+            <p class="sub-title">{{node.field_sub.value}}</p>
+            <div class="ctn">
+                {{content}}
+            </div>
+        </div>
+        <div class="row inter-lists">
+            <div class="inter-about col-sm-6 revistas-detail-mobile">
+                <img src="{{ file_url(node.field_info_avatar.entity.fileuri) }}" class="img-responsive" alt="" />
+                <div class="inter-about-info">
+                    <p class="inter-name">
+                        {%if(node.field_info_name)%}
+                            {{node.field_info_name.value}}
+                        {%endif%}
+                    </p>
+                    <p class="inter-position">
+                        {%if(node.field_info_position)%}
+                            {{node.field_info_position.value}}
+                        {%endif%}
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <p class="lists-title"><strong>Staff</strong></p>
+                {%if(node.field_staff)%}
+                    {{node.field_staff.value|t}}
+                {%endif%}
+            </div>
+            <div class="col-sm-6">
+                <p class="lists-title"><strong>Comercial</strong></p>
+                {%if(node.field_comercial)%}
+                    {{node.field_comercial.value|t}}
+                {%endif%}
+            </div>
+        </div>
+        <div class="inter-tab">
+            {%if(tags)%}
+                {{tags|t}}
+            {%endif%}
+        </div>
+
+        <div class="inter-files-attach">
+            {%if(revistas_file)%}
+                {{revistas_file|t}}
+            {%endif%}
+        </div>
+    </div>
+    <div class="inter-ct-left col-sm-4 col-sm-pull-7 hidden-xs">
+        <div class="row">
+            <div class="inter-about col-sm-8 revistas-detail-deskop">
+                <div class="square-wrap" style="background-image: url({{ file_url(node.field_info_avatar.entity.fileuri) }})"></div>
+                <div class="inter-about-info">
+                    <p class="inter-name">
+                        {%if(node.field_info_name)%}
+                            {{node.field_info_name.value}}
+                        {%endif%}
+                    </p>
+                    <p class="inter-position">
+                        {%if(node.field_info_position)%}
+                            {{node.field_info_position.value}}
+                        {%endif%}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+{%endif%}
+
+{% if(node.getType=="team") or (node.getType=="conference")%}
+    <div class="office-info col-xs-6 col-md-4">
+        <div style="overflow: hidden; position: relative;">
+            <div class="square-wrap" style="background-image: url({{ file_url(node.field_image.entity.fileuri) }})"></div>
+        </div>
+        <div class="categories hidden-xs">
+            <h3>Categoría:</h3>
+            {{category|t}}
+            <h3>Subcategoría:</h3>
+            {{sub_category|t}}
+        </div>
+    </div>
+    <div class="office-content col-xs-6 visible-xs">
+        <div class="info">
+            <h1>{{node.getTitle()}}</h1>
+            <h2>Escritor, deportista y trader español</h2>
+            <h3>Solicitar conferenciante</h3>
+        </div>
+    </div>
+    <div class="office-content col-xs-12 col-md-8">
+        <h1 class="hidden-xs">{{node.getTitle()}}</h1>
+        <h2 class="hidden-xs">Escritor, deportista y trader español</h2>
+        <h3 class="hidden-xs">Solicitar conferenciante</h3>
+        {%if(node.body.value)%}
+            {{node.body.value|t}}
+        {%endif%}
+        <hr />
+        <h4 class="link_del">Links del conferenciante:</h4>
+        {%if(node.field_link_social)%}
+            {{node.field_link_social.value|t}}
+        {%endif%}
+    </div>
+    <div class="office-info col-xs-12 visible-xs">
+        <h3>Categoría:</h3>
+        {{category|t}}
+        <h3>Subcategoría:</h3>
+        {{sub_category|t}}
+    </div>
+{%endif%}
+
+{% if(node.getType=="actualidad")%}
+    <div class="row">
+        <div class="col-md-10 col-sm-offset-1">
+            <div class="inter-meta">
+                {{category|t}} | <span class="date">{{node.field_time.value}}</span>
+            </div>
+
+            <div class="inter-title">
+                <h2>{{node.getTitle()}}</h2>
+            </div>
+
+            <div class="inter-thumb">
+                <img src="{{ file_url(node.field_image.entity.fileuri) }}" class="img-responsive" />
+            </div>
+
+            <div class="inter-ct-left col-sm-3">
+                <div class="inter-about row">
+                    <div class="inter-contact-info">
+                        <p class="text">Compartir artículo</p>
+                        <a href="https://twitter.com/share?url={{ url('<current>') }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="http://www.facebook.com/sharer.php?u={{ url('<current>') }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ url('<current>') }}" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 {{ url('<current>') }}"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="inter-ct-right col-sm-9">
+                <div class="row">
+                    <div class="inter-content">
+                        {%if(node.body)%}
+                            {{node.body.value|t}}
+                        {%endif%}
+                    </div>
+                    <div class="inter-tab tags">
+                        <span>Tags: </span>
+                        {%if(tags)%}
+                            {{tags|t}}
+                        {%endif%}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{%endif%}

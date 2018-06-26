@@ -1,0 +1,66 @@
+<!-- Header Section -->
+<div id="main" class="page-revistas-interior">
+    <div class="header" style="background: url('/themes/prisma/assets/images/journals-bg.png'); background-size: cover;">
+    <div class="full-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-2 brand">
+                    <a href="/" class="logo-dk"><img src="/themes/prisma/assets/images/logo.png"></a>
+                    <a href="/" class="logo-mb"><img src="/themes/prisma/assets/images/logo-mb.png"></a>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu"  aria-expanded="false">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="col-sm-12 col-md-10 main-menu">
+                    <div class="collapse navbar-collapse pull-right" id="main-menu">
+                        {% if page.primary_menu %}
+                            {{ page.primary_menu }}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        {{page.revistas_interior_widget}}
+
+    </div>
+	<div class="background"></div>
+    <div class="wrap revistas-interior-temp">
+        <div class="interior-content">
+            <div class="container">
+                <div class="row">
+                    {{ page.content }}
+                </div>
+
+            </div>
+        </div>
+        <!-- // Revistas Statistics \\ -->
+        <div class="revistas-statistics">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-11 col-sm-offset-1">
+                        <div class="row">
+                        {% if page.revistas_statistics_widget %}
+                            {{page.revistas_statistics_widget}}
+                        {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- // Revistas Statistics \\ -->
+    </div>
+
+    <!-- Footer Section -->
+
+    {% include directory ~ '/templates/footer/footer.html.twig' %}
+
+    <!-- /Footer Section -->
+</div>
+<input type="hidden" id="menu-link-active" value = "revistas">

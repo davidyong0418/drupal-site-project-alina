@@ -1,0 +1,27 @@
+
+<div class="journals-section container-fluid">
+    <h3 class="title text-center">Revistas</h3>
+
+    <div class="row">
+        <!-- // Slider Carousel \\ -->
+        <div class="journals-slider owl-carousel owl-theme">
+            {% for key,row in rows %}
+            <div class="item">
+                <div class="item-box">
+                    <div class="journals-img">
+                        <img src="{{file_url(row['content']['#row']._entity.field_image.entity.fileuri)}}" class="img-responsive" alt="" />
+                    </div>
+                    <div class="journals-info text-center">
+                        {{row.content}}
+                        <p class="jo-name">Audiencia</p>
+                        <p class="jo-number">86.000</p>
+                        <a href="#" class="btn-round">Ir a la web <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            {%endfor%}
+        </div>
+        <!-- // Slider Carousel \\ -->
+    </div>
+
+</div>

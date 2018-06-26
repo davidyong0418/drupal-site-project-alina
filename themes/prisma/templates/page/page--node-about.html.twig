@@ -1,0 +1,31 @@
+<!-- Header Section -->
+<div class="header" style="background: url('/themes/prisma/assets/images/quienes-header.png'); background-size: cover;">
+{% include directory ~ '/templates/header/header-page.html.twig' %}
+</div>
+<div class="background"></div>
+<div class="wrap quienes-temp">
+    <div class="main-contain quienes-info">
+        <div class="page-intro container">
+            {{ page.content }}
+        </div>
+    </div>
+    <div class="page-body ">
+        <!-- MAIN_CONTENT -->
+        <div class="container-fluid">
+        {{page.product_widget}}
+        </div>
+        <!-- END MAIN_CONTENT -->
+        <!-- SOMOS -->
+       {{page.team_widget}}
+        <!-- END SOMOS -->
+        <!-- CONTACT -->
+        {{page.address_widget}}
+        <!-- END CONTACT -->
+    </div>
+</div>
+
+<!-- Footer Section -->
+
+{% include directory ~ '/templates/footer/footer.html.twig' %}
+
+<!-- /Footer Section -->

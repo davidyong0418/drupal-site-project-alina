@@ -1,0 +1,25 @@
+<div class="full-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-2 brand">
+                	<a href="/" class="logo-dk"><img src="/themes/prisma/assets/images/logo.png"></a>
+                	<a href="/" class="logo-mb"><img src="/themes/prisma/assets/images/logo-mb.png"></a>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu"  aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="col-sm-12 col-md-10 main-menu">
+                <div class="collapse navbar-collapse pull-right" id="main-menu">
+                    {% if page.primary_menu %}
+                        {{ page.primary_menu }}
+                    {% endif %}  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,75 @@
+{%if display_id=="viajes"%}
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="eventos-filter filter-form">
+                <div class="form-group">
+                    <label>Filtrar por:</label>
+                    <button type="button" class="btn-round visible-xs btn-click"><i class="fa fa-sliders" aria-hidden="true"></i> Filtrar</button>
+                    {{ exposed }}
+                </div>
+            </div>
+        </div>
+        <div class="eventos-ports flex-wrap-center-colum">
+            {{rows}}
+            {{ pager }}
+        </div>
+    </div>
+{%elseif display_id=="conference"%}
+
+        <div class="container">
+           <div class="row">
+        <h1>Conferenciantes:</h1>
+        <div class="somos-filter row filter-form">
+
+            <label>Filtrar por:</label>
+            <button type="button" class="btn-round visible-xs btn-click"><i class="fa fa-sliders" aria-hidden="true"></i> Filtrar</button>
+            {{ exposed }}
+        </div>
+        </div>
+        </div>
+        <div class="somos">
+            <div class="row">
+                {{rows}}
+                {{ pager }}
+            </div>
+            <div class="row">
+                {{rows}}
+                {{ pager }}
+            </div>
+        </div>
+{%elseif display_id=="eventos"%}
+    <div class="row">
+        <div class="col-sm-12">
+        <div class="somos-filter filter-form row">
+            <label class="filter-label">Filtrar por:</label>
+            <button type="button" class="btn-round visible-xs btn-click"><i class="fa fa-sliders" aria-hidden="true"></i> Filtrar</button>
+            {{ exposed }}
+        </div>
+        </div>
+        <div class="eventos-ports">
+            {{rows}}
+        </div>
+        {{ pager }}
+
+
+    </div>
+{%elseif display_id=="actualidad"%}
+    <div class="row">
+        <div class="somos-filter row filter-form">
+            <label>Filtrar por:</label>
+            <button type="button" class="btn-round visible-xs btn-click"><i class="fa fa-sliders" aria-hidden="true"></i> Filtrar</button>
+            {{ exposed }}
+        </div>
+        <div class="post-new-section">
+                
+                    {{rows}}
+    
+        </div>
+        {{ pager }}
+
+
+    </div>
+{%else%}
+    {{ exposed }}
+    {{rows}}
+{%endif%}

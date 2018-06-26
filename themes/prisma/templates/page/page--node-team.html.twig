@@ -1,0 +1,115 @@
+<!-- Header Section -->
+<div id="main">
+    <div class="header interior" style="background: url('/themes/prisma/assets/images/office.png');">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-2 brand">
+                    <a href="/" class="logo-dk"><img src="/themes/prisma/assets/images/logo.png"></a>
+                    <a href="/" class="logo-mb"><img src="/themes/prisma/assets/images/logo-mb.png"></a>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu"  aria-expanded="false">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="col-sm-12 col-md-9 main-menu">
+                    <div class="collapse navbar-collapse" id="main-menu">
+                        {% if page.primary_menu %}
+                            {{ page.primary_menu }}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="background"></div>
+    <div class="wrap office-temp">
+        <div class="main-contain">
+            <div class="page-intro container">
+                <div class="row">
+                    {{ page.content }}
+                </div>
+            </div>
+            <!-- // Revistas Statistics \\ -->
+            <div class="container eventos-content">
+                <div class="post-lists row">
+                    <h2>Eventos pasados y futuros</h2>
+                    <div class="eventos-ports flex-wrap-center-colum">
+                        {{page.eventos_widget}}
+                    </div>
+                </div>
+            </div>
+            <div class="somos color-block container-fluid">
+                <div class="row">
+                    <div class="container">
+                        <h1>Conferenciantes relacionados</h1>
+                        <div class="col-md-3 somos-item">
+                            <img src="/themes/prisma/assets/images/avt1.png">
+                            <div class="item-content">
+                                <div class="item-name">
+                                    <span>Arturo Perez Reberte</span>
+                                </div>
+                                <div class="item-txt">
+                                    <p>Vicepresidente de los EEUU Embajador de Israel en España Activista Medioambiental</p>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 somos-item">
+                            <img src="/themes/prisma/assets/images/avt2.png">
+                            <div class="item-content">
+                                <div class="item-name">
+                                    <span>Curtis Garrett</span>
+                                </div>
+                                <div class="item-txt">
+                                    <p>Vicepresidente de los EEUU Embajador de Israel en España Activista Medioambiental</p>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 somos-item">
+                            <img src="/themes/prisma/assets/images/avt3.png">
+                            <div class="item-content">
+                                <div class="item-name">
+                                    <span>Nicholas Wise</span>
+                                </div>
+                                <div class="item-txt">
+                                    <p>Vicepresidente de los EEUU Embajador de Israel en España Activista Medioambiental</p>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 somos-item">
+                            <img src="/themes/prisma/assets/images/avt4.png">
+                            <div class="item-content">
+                                <div class="item-name">
+                                    <span>Harvey Hoffman</span>
+                                </div>
+                                <div class="item-txt">
+                                    <p>Vicepresidente de los EEUU Embajador de Israel en España Activista Medioambiental</p>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container actualidad post-new-section">
+                <div class="post-lists row">
+                    <h2>Actualidad</h2>
+                    {{page.page_actualidad}}
+                </div>
+            </div>
+        </div>
+        <!-- // Revistas Statistics \\ -->
+    </div>
+
+    <!-- Footer Section -->
+
+    {% include directory ~ '/templates/footer/footer.html.twig' %}
+
+    <!-- /Footer Section -->
+</div>

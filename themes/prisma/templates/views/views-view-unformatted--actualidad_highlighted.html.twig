@@ -1,0 +1,102 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_slideshow()
+ *
+ * @ingroup themeable
+ */
+#}
+
+<style>
+    .actualidad_highlighted{
+        overflow: hidden
+    }
+    .act_720{
+        position: relative;
+    }
+    .act_360{
+        position: relative;
+    }
+
+    .act_720  .views-field-title{
+        position: absolute;
+        top: 55%;
+    }
+    .act_720  .views-field-field-description{
+        position: absolute;
+        top: 65%;
+    }
+    .act_720  .views-field-field-date{
+        position: absolute;
+        bottom: 5%;
+        margin-left: 30px;
+    }
+    .act_360  .views-field-title{
+        position: absolute;
+        top: 55%;
+    }
+    .act_360  .views-field-field-description{
+        position: absolute;
+        top: 65%;
+    }
+    .act_360  .views-field-field-date{
+        position: absolute;
+        bottom: 5%;
+        margin-left: 30px;
+    }
+    .actualidad_highlighted .views-field-title a{
+        background: #B22222;
+        font-size: 18px;
+        border-radius: 0;
+        color: #fff;
+        padding: 6px 12px;
+        margin: 30px;
+    }
+    .actualidad_highlighted .views-field-field-description p{
+        margin: 0 30px 0 30px;
+        color: #fff;
+        font-size: 24px;
+        font-family: 'ProximanovaBold';
+        margin-top: 10px;
+    }
+</style>
+<section class="actualidad_highlighted_section">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Actualidad</h1>
+            </div>
+            {% for key,row in rows %}
+                {%if(key==0)%}
+                    <div class="col-sm-8">
+                        <div class="actualidad_highlighted">
+                            <div class="act_720">
+                            {%else%}
+                                <div class="col-sm-4">
+                                    <div class="actualidad_highlighted">
+                                        <div class="act_360">
+                                        {%endif%}
+
+                                        {{ row.content }}
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}   
+
+                    </div>
+
+                </div>
+            </div>
+            </section>

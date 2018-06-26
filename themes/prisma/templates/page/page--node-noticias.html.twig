@@ -1,0 +1,124 @@
+<div id="main" class="microsite-evento-template">
+    {% include directory ~ '/templates/header/header-microsite.html.twig' %}
+<div class="background"></div>
+    <!-- MAIN CONTENT -->
+    <div class="wrap">
+        <!-- // BANNER \\ -->
+
+        <!-- // Revistas Interior Content \\ -->
+        <div class="interior-content interior-content-noticias">
+            <div class="container">
+
+                <div class="inter-meta">
+                    {{category|t}} | <span class="date">{{node.field_time.value}}</span>
+                </div>
+
+                <div class="inter-title">
+                    <h2>{{node.getTitle()}}</h2>
+                </div>
+
+                <div class="inter-thumb">
+                    <img src="{{file_url(node.field_image.entity.fileuri)}}" class="img-responsive" />
+                </div>
+
+                <div class="inter-ct-right col-sm-8 col-sm-push-4">
+                    <div class="row">
+                        <div class="inter-content">
+                        {{node.body.value|t}}
+                        </div>
+                        <div class="inter-tab tags">
+                            <span>Tags: </span>
+                            {{tags|t}}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inter-ct-left col-sm-4 col-sm-pull-8 hidden-xs">
+                    <div class="row">
+                        <div class="inter-about col-sm-8">
+                            <div class="row">
+                                <div class="square-wrap" style="background-image: url({{file_url(node.field_info_avatar.entity.fileuri)}})">
+                                </div>
+                                <div class="inter-about-info">
+                                    <p class="inter-name">{{node.field_info_name.value}}</p>
+                                    <p class="inter-position">Escritora<br/>{{node.field_info_position.value}}</p>
+                                    <p class="inter-social">
+                                        <a href="https://twitter.com/share?url={{ url('<current>') }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                        <a href="http://www.facebook.com/sharer.php?u={{ url('<current>') }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ url('<current>') }}" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- // Revistas Interior Content \\ -->
+        <!-- // Noticias \\ -->
+        <div id="noticias">
+            {{page.noticias_widget}}
+        </div>
+        <!-- // Noticias \\ -->
+        <div id="patrocinadores">
+            {{page.patrocinadores_widget}}
+        </div>
+        <div id="colaboradores">
+            {{page.colaboradores_widget}}
+        </div>
+
+
+
+    </div>
+    <!-- MAIN CONTENT -->
+
+    <!-- // FOOTER \\ -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 footer-content">
+                    <h1>Contacta con nosotros</h1>
+                    <p>¿Necesitas ayuda en algo? Rellena este formulario y nos pondremos en contacto contigo lo antes posible.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class='footer-form'>
+                        {% if page.contact_form_widget %}
+                            <div class="row">
+                                {{ page.contact_form_widget}}
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row"></div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="ads">
+                        <img src="/themes/prisma/assets/images/footer-ads.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footer-text">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-push-6 footer-link">
+                        <ul>
+                            <li><a href="https://www.linkedin.com/company/prismapublicaciones/?trk=ppro_cprof&originalSubdomain=es" target="_blank">Aviso legal</a></li>
+                            <li><a href="#">Condiciones de uso</a></li>
+                            <li><a href="#">Política de cookies</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-md-pull-6 copyright">
+                        <p>© Prisma Publicaciones 2002 S.L </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // FOOTER \\ -->
+
+</div>

@@ -1,0 +1,39 @@
+bootstrap:
+  version: 1.x
+  css:
+    theme:
+      includes/bootstrap/css/bootstrap.min.css: {}
+  js:
+      includes/bootstrap/js/bootstrap.min.js: {}
+
+global-components:
+  Version: 1.x
+  css:
+    theme:
+        assets/css/bootstrap-theme.css: {}
+        assets/vendor/font-awesome/css/font-awesome.min.css: {}
+        assets/vendor/OwlCarousel/css/owl.theme.default.min.css: {}
+        assets/vendor/OwlCarousel/css/owl.carousel.min.css: {}
+        https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css: {}
+        assets/css/style.css: {}
+        assets/css/custom.css: {}
+        assets/css/responsive.css: {}
+        assets/css/custom-fix.css: {}
+        assets/css/icon.css: {}
+        
+  js: 
+
+    http://code.jquery.com/jquery-migrate-1.2.1.min.js : {}
+    assets/vendor/OwlCarousel/js/owl.carousel.min.js: {}
+    https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js: {}
+    assets/js/custom.js: {}
+    assets/js/menu.js: {}
+    https://maps.googleapis.com/maps/api/js?callback=initMap: {}
+
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+

@@ -1,0 +1,18 @@
+
+<div class="container actualidad post-new-section">
+    <div class="post-lists row">
+        <h2 style="margin-bottom:30px">Noticias relacionadas</h2>
+        <div class="row row-post">
+            {% for key,row in rows %}
+                {% set img = file_url(row['content']['#row']._entity.field_image.entity.fileuri)%}
+                <div class="post-item col-sm-4 col-xs-12">
+                    <div class="post-bg imgResize-1-1" style="background-image: url('{{img}}');">
+                        <img src="{{img}}">
+                        {{row.content}}
+                    </div>
+                </div>
+            {% endfor %} 
+        </div>
+    </div>
+</div>
+

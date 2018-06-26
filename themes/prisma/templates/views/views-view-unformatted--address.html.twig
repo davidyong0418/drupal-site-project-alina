@@ -1,0 +1,21 @@
+
+<div class="contact">
+    <div class="container">
+        <h1>Contacta con nosotros</h1>
+        <div class="row">
+            {% for key,row in rows %}
+            <div class="col-xs-12 col-md-6 contact-info">
+            {% if(key == 0)%}
+            {% set link = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.2887094938487!2d2.1265032154258505!3d41.38953607926397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498665ec48553%3A0x8a0443e2b5163378!2sAvinguda+Diagonal%2C+662%2C+08034+Barcelona%2C+Spain!5e0!3m2!1sen!2s!4v1518430291681' %}
+                  
+      
+            {%else%}
+                     {% set link = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.225465321063!2d-3.642830884400451!3d40.44814647936145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f18ee1150df%3A0x561ff091531b8f14!2sCalle+de+Josefa+Valc%C3%A1rcel%2C+42%2C+28027+Madrid%2C+Spain!5e0!3m2!1sen!2s!4v1518430165679' %}
+            {%endif%}
+            <iframe src="{{link}}" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    {{row.content}}
+            </div>
+                 {% endfor %}   
+        </div>
+    </div>
+</div>

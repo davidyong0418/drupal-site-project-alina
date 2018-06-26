@@ -1,0 +1,107 @@
+<div class="row">
+    <div class="col-sm-12 col-md-8 col-md-push-4">
+        <h1>{{node.getTitle()}}</h1>
+    </div>
+    <div class="col-sm-12 viajes-info">
+    <div class="col-xs-12 col-md-8 col-md-push-4">
+        <img src="{{ file_url(node.field_image.entity.fileuri) }}">
+    </div>
+    <div class="col-xs-12 col-md-4 col-md-pull-8 viajes-left">
+        <div class="viajes-event-info">
+            <p><img src="/themes/prisma/assets/svg/pincho.svg" class="icon_svg_pincho">
+                <span><b>{%if(node.field_city.value)%}
+                        {{node.field_city.value|t}}
+                        {%endif%}, <br>del 10 al 18 de junio</b></span>
+                </p>
+                <div class="clear"></div><p></p>
+                <p><i class="fa fa-info" aria-hidden="true"></i>
+                    <span>Las habitaciones del hotel serán para dos personas. <br>Reservas habitaciones: <br><b>93 492 87 09</b></span></p>
+                <div class="clear"></div><p></p>
+                <div class="btn-load-more-ajax">
+                    <a href="#" class="btn-round red">Comprar </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-xs-12">
+        <div class="col-sm-12 col-md-8 col-md-push-4">
+            <div class="viajes-content">
+                <div>
+
+                    <!-- // Programa \\ -->
+
+                    <section class="programa-section">
+
+                        <div>
+
+                            <!-- Nav tabs -->
+
+                            <ul class="nav tab-parent flex-center-colum" role="tablist">
+
+                                <li role="presentation" class="active"><a href="#descripcion" aria-controls="descripcion" role="tab" data-toggle="tab">Descripción del viaje</a></li>
+
+                                <li role="presentation"><a href="#horarios" aria-controls="horarios" role="tab" data-toggle="tab">Horarios por días</a></li>
+
+                            </ul>
+
+
+
+                            <!-- // Tab panes \\ -->
+
+                            <div class="tab-content">
+
+                                <div role="tabpanel" class="tab-pane active" id="descripcion">
+                                    <div>
+                                        {%if(node.body.value)%}
+                                            {{node.body.value|t}}
+                                        {%endif%}
+                                    </div>
+                                    <div class="inner-wrap">
+                                        <h2 class="via_tab_title_1">Viajaras con:</h2>
+                                        <div class="somos row">
+                                            {{conference|t}}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="horarios">
+                                    <section class="programa-section tab-child">
+                                        <div>
+                                            <!-- Nav tabs -->
+                                            <div class="text-center">
+                                                <div class="jscustom-list">
+                                                    <div class="visible-xs"><span class="text-mb"></span></div>
+                                                    <ul class="nav flex-center-colum" role="tablist">
+                                                        {{tab_viajes|t}}
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <!-- // Tab panes \\ -->
+                                            <div class="tab-content">
+                                                {{tab_content_viajes|t}}
+                                            </div>
+                                            <!-- // Tab panes \\ -->
+                                        </div>
+
+                                    </section>
+
+                                </div>
+
+                            </div>
+
+                            <!-- // Tab panes \\ -->
+
+                        </div>
+
+
+                    </section>
+
+                    <!-- // Programa \\ -->
+
+                    <!-- MAIN CONTENT -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

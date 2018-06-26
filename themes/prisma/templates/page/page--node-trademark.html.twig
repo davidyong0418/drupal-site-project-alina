@@ -1,0 +1,30 @@
+<!-- Header Section -->
+<div class="header interior" style="background: url('/themes/prisma/assets/images/fact-interior.png'); background-size: cover;">
+    {% include directory ~ '/templates/header/header-page-detail.html.twig' %}
+</div>
+<div class="background"></div>
+<div class="wrap factoria-temp">
+    <div class="main-contain">
+        <div class="page-intro container">
+            {{ page.content }}
+        </div>
+    </div>
+    <div class="page-content container-fluild">
+        <div class="container page-body">
+            <h2>Otros proyectos: </h2>
+            {{page.trademark_widget}}
+        </div>
+    </div>
+    <div class="container actualidad post-new-section">
+        <div class="post-lists row">
+            <h2>Actualidad</h2>
+            {{page.actualidad_widget}}
+        </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+
+{% include directory ~ '/templates/footer/footer.html.twig' %}
+<input type="hidden" id="menu-link-active" value = "factoria">
+<!-- /Footer Section -->

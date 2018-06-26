@@ -1,0 +1,12 @@
+
+<div class="slider-home owl-carousel owl-theme">
+    {% for key,row in rows %}
+        {% set img = file_url(row['content']['#row']._entity.field_image.entity.fileuri)%}
+        <div class="item">
+            <div class="sld-ctn">
+                {{row.content}}
+            </div>
+            <div class="mobile-item">{{ row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ body }}'] }}</div>
+        </div>
+        {% endfor %}  
+    </div>

@@ -1,0 +1,14 @@
+{%
+  set root_path = ['taxonomy-revistas']
+%}
+<!-- Header Section -->
+<!-- /Footer Section -->
+
+<div id="main">
+    {% include directory ~ '/templates/header/header.html.twig' %}
+
+    {{page.content}}
+    
+    {% include directory ~ '/templates/footer/footer.html.twig' %}
+
+</div>

@@ -1,0 +1,14 @@
+<!-- SOMOS -->
+<div class="somos quienes-somo">
+        <div class="container">
+            <h1>Quiénes somos</h1>
+            <div class="row">
+                {% for key,row in rows %}
+                    <div class="col-md-3 somos-item">
+                        {{row.content}}
+                    </div>
+                {%endfor%}
+            </div>
+    </div>
+</div>
+<!-- END SOMOS -->

@@ -1,0 +1,18 @@
+
+    <div class="row">
+        <div class="col-md-5">
+            <div class="footer-content">
+                <h1>Contacta con nosotros</h1>
+                <p>¿Necesitas ayuda en algo? <br>Rellena este formulario y nos pondremos en contacto contigo lo antes posible.</p>
+            </div>
+        </div>
+        <div class="col-md-7">
+            <div class="footer-form">
+                {% if page.contact_form_widget %}
+                    <div class="row">
+                        {{ page.contact_form_widget}}
+                    </div>
+                {% endif %}
+            </div>    
+        </div>
+    </div>

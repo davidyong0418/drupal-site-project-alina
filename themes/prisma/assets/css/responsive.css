@@ -1,0 +1,2022 @@
+@media screen and (min-width: 668px) {
+    .somos-filter .form-item {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner .banner-content .banner-box {
+        min-height: 180px;
+    }
+    .office-temp .somos.color-block {
+        margin-bottom: 80px;
+    }
+    .bg_image_home .slider-home {
+        padding-bottom: 70px;
+    }
+    .logo-mb {
+        display: none;
+    }
+    .page-node-type-conference .background,
+    .page-node-type-viajes .background {
+        bottom: 215px;
+        height: 220px;
+    }
+    .viajes-content .somos .somos-item .item-content {
+        width: 100%;
+        margin-top: 0;
+        padding: 10px 0;
+    }
+    .page-node-type-conference .page-intro.container,
+    .page-node-type-viajes .viajes-temp {
+        margin-top: -360px;
+    }
+    .bg_image_home .background {
+        bottom: 20px;
+        height: 100px;
+    }
+    .page-node-type-conference .office-temp .eventos-content {
+        padding-top: 70px;
+    }
+    .slider-home .owl-nav {
+        margin: 0 auto;
+        max-width: 750px;
+        left: 50%;
+        bottom: 35%;
+        margin-left: -375px;
+    }
+    .viajes-content .timeline .col-timeline:last-of-type .content:before,
+    .viajes-content .timeline .col-timeline:first-of-type .content:after {
+        left: -42px;
+        right: auto;
+        bottom: calc(100% - 48%);
+    }
+    .viajes-content .timeline .col-timeline:last-of-type .content:before {
+        top: calc(100% - 48%);
+        bottom: 0;
+    }
+}
+@media screen and (min-width: 992px) {
+
+    .page-intro {
+        padding-right: 90px;
+    }
+    .slider-home .owl-nav {
+        max-width: 970px;
+        margin-left: -485px;
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .viajes-left{
+        padding-left: 0;
+    }
+    .actualidad-interior-single .background {
+        height: 400px;
+        bottom: 395px;
+    }
+    .actualidad-interior-single .actualidad-temp {
+        margin-top: -700px;
+    }
+    .actualidad-interior-single .interior-content {
+        background:  transparent;
+    }
+}
+@media screen and (min-width: 1170px) {
+
+    .page-node-type-page-home .background {
+        right: 8%;
+    }
+    .bg_image_home .post-new-section {
+        margin-top: -75px;
+    }
+    .actualidad-temp .interior-content .inter-thumb {
+        width: 980px;
+    }
+}
+@media screen and (min-width: 1367px) {
+    .page-intro {
+        padding-right: 0;
+    }
+    .header.header-home {
+        height: 850px;
+    }
+    .slider-home .sld-ctn {
+        height: 850px;
+    }
+    .bg_image_home .background {
+        bottom: 220px;
+        height: 300px;
+    }
+    .bg_image_home .post-new-section {
+        margin-top: -400px;
+        padding-top: 0;
+    }
+    .slider-home .sld-ctn .sld-info {
+        bottom: 280px;
+    }
+    .slider-home .owl-nav {
+        bottom: 53%;
+        max-width: 1170px;
+        margin-left: -585px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .somos-filter .form-item {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+    .somos-filter .select2-container {
+        width: 196px !important;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+    .actualidad-interior-single .header {
+        height: 330px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .eventos-filter input[type='text']{
+        display: none;
+    }
+    .somos-content .somos-filter select.form-control, .somos-content .somos-filter input {
+        min-width: 120px;
+    }
+    .somos-content .somos-filter .btn-round {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .header .navbar-nav li {
+        font-size: 14px;
+    }
+    .header .navbar-nav li a {
+        margin: 5px 8px;
+    }
+    .viajes-content .tab-child .right span {
+        position: absolute;
+        left: -175px;
+        top: 115px;
+        color: #000000;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+    .viajes-content .timeline .col-timeline.right {
+        left: 30%;
+    }
+    .viajes-content .programa-section {
+        margin-top: 0;
+        padding-top: 30px;
+    }
+    .viajes-content .programa-section {
+        padding-bottom: 0;
+    }
+    .quienes-temp .page-body .section-image img {
+        height: 475px;
+    }
+    .page-body .section-content {
+        padding-top: 100px;
+        /* padding-bottom: 80px; */
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1366px) {
+    .slider-home .owl-nav {
+        margin-left: -545px;
+        bottom: 38%;
+    }
+}
+@media (max-width: 1200px) {
+    .microsite-evento-template .navbar-toggle {
+        display: block !important;
+    }
+    header .flex-container {
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    header .btn-menu {
+        min-width: 230px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .post-new-section .post-item .post-bg .post-entry .p-title {
+        font-size: 17px;
+    }
+    .post-new-section .post-item .post-bg .post-entry {
+        padding: 5px 10px;
+    }
+    .header {
+        height: 440px;
+    }
+    .header .page-title h1 {
+        margin-top: 150px;
+    }
+    .main-contain {
+        margin-bottom: 50px;
+    }
+}
+@media screen and (min-width: 768px){
+    .event-detail-mobile, .revistas-detail-mobile{
+        display: none;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .eventos-content .eventos-ports .post-ctn img {
+        width: auto;
+        height: 255px;
+        max-width: none;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .footer-link ul li a {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .background {
+        right: 20px;
+    }
+    .bg_image_home .post-new-section {
+        margin-top: -80px;
+    }
+    .header .navbar-nav li a {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .eventos-content .eventos-ports .post-ctn img {
+        height: 140px;
+        width: 100%;
+    }
+    .plan {
+        margin-top: 30px;
+    }
+    .full-header {
+        top: 40px;
+    }
+    .full-header.sticky {
+        top: 20px;
+    }
+    .header .container {
+        width: 100%;
+    }
+    .main-menu {
+        background: #fff;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+        top: -20px;
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header .navbar-nav li a {
+        color: #000;
+    }
+    .header .main-menu {
+        margin-top: 0;
+    }
+    .logo-mb {
+        display: none;
+    }
+    .navbar-toggle {
+        z-index: 9999;
+    }
+    .navbar-toggle.active:after {
+        content: 'X';
+        color: #000;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .navbar-toggle.active {
+        margin-top: 0;
+    }
+    .navbar-toggle.active span {
+        display: none;
+    }
+    .logo-dk.current {
+        display: none;
+    }
+    .logo-mb.active {
+        display: block;
+        position: relative;
+        z-index: 99999;
+    }
+    .navbar-collapse.pull-right {
+        float: none !important;
+    }
+    .page-node-type-conference .office-temp .eventos-content {
+        padding-top: 20px;
+    }
+    .page-node-type-page-conference .somos-content {
+        padding-top: 30px;
+    }
+    .somos-filter .form-submit {
+        min-width: 120px;
+    }
+    .quienes-temp .quienes-info .hightline,
+    .factoria-temp .hightline {
+        margin-top: -40px;
+        padding-right: 30px;
+    }
+    .actualidad-temp .interior-content {
+        margin-top: -100px;
+    }
+    .somos.color-block h1 {
+        margin-top: 0;
+    }
+    .background {
+        right: 15px;
+    }
+    .interior-content .inter-ct-right .title {
+        font-size: 24px;
+    }
+    .interior-content .inter-ct-right .sub-title,
+    .interior-content .inter-ct-right .ctn p {
+        font-size: 16px;
+    }
+    .revistas-statistics .revi-statistics-box .number {
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .revistas-statistics .revi-statistics-box {
+        margin-bottom: 30px;
+    }
+    .factoria-temp .page-content .page-body h2 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+    .factoria-temp .actualidad {
+        padding-top: 50px;
+    }
+    .interior-content .inter-tab span {
+        margin-bottom: 10px;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .interior-content-noticias .inter-about-info {
+        margin-top: 10px;
+    }
+    .hightline p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .factoria-temp .page-content {
+        padding-top: 30px;
+    }
+    .interior-content .inter-lists {
+        margin-top: 30px;
+    }
+    .revistas-slider .journals-info a.btn-round {
+        font-size: 16px;
+        padding: 5px 15px;
+    }
+    .page-revistas-interior .revistas-slider {
+        padding: 80px 0 50px;
+    }
+    .page-body .section-content a {
+        font-size: 16px;
+    }
+    .journals-section {
+        padding: 30px 0;
+    }
+    .journals-section .title {
+        margin: 0 0 30px;
+    }
+    .post-new-section .post-item .post-bg{
+        max-height: 250px;
+    }
+    .eventos-content {
+        padding-top: 10px;
+    }
+    .eventos-content .eventos-filter {
+        margin-bottom: 30px;
+    }
+    .eventos-content .eventos-ports .post-ctn .eve-txt {
+        padding: 15px;
+    }
+    .eventos-content .eventos-ports .post-ctn .eve-cat{
+        left: 15px
+    }
+    .eventos-content .eventos-ports .post-ctn .eve-title{
+        font-size: 18px;
+        margin: 5px 0 10px;
+        line-height: 22px;
+    }
+    .eventos-temp .page-content .pager {
+        padding: 30px 0 50px 0;
+    }
+    .eventos-content .eventos-ports .post-ctn .eve-date{
+        margin-bottom: 0;
+    }
+    .quienes-temp .contact h1 {
+        font-size: 30px;
+    }
+    .footer-content h1 {
+        font-size: 28px;
+    }
+    .footer-form{
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .footer-content h1:after {
+        width: 100px;
+        margin: 30px 0;
+    }
+    .footer-form textarea {
+        padding-bottom: 0;
+        margin-bottom: 40px;
+    }
+    .page-body .section-content h2 {
+        font-size: 26px;
+    }
+    .header {
+        background-size: cover !important;
+    }
+    .header-home .container {
+        width: 100%;
+    }
+    .main-menu {
+        min-height: 0;
+    }
+    .slider-home .sld-ctn .sld-info h1 {
+        font-size: 24px
+    }
+    .slider-home .sld-ctn .sld-info p {
+        font-size: 14px
+    }
+    .post-new-section h3.title,
+    .journals-section .title {
+        font-size: 22px;
+    }
+    .post-new-section .post-item .post-bg .post-entry .p-cat {
+        font-size: 12px;
+        padding: 2px 12px;
+    }
+    .post-new-section .post-item .post-bg .post-entry .p-title {
+        font-size: 18px;
+    }
+    .post-new-section .post-item .post-bg .post-entry .p-date {
+        font-size: 11px;
+    }
+    .footer-form input, .footer-form textarea {
+        margin-bottom: 20px;
+    }
+    .owl-item .journals-info .jo-name,
+    .owl-item .journals-info .btn-round {
+        font-size: 16px;
+        padding: 5px 20px;
+        width: auto;
+    }
+    .owl-item .journals-info .jo-number {
+        font-size: 28px;
+    }
+    .journals-slider .owl-nav .owl-next {
+        right: 5%;
+    }
+    .journals-slider .owl-nav .owl-prev {
+        left: 5%;
+    }
+    .revistas-slider .owl-nav .owl-prev {
+        left: 20%;
+    }
+    .revistas-slider .owl-nav .owl-next {
+        right: 20%;
+    }
+    .interior-content .inter-ct-left .revi-about {
+        display: flex;
+        margin-bottom: 35px;
+    }
+    .interior-content .inter-ct-left .revi-about-info {
+        margin-left: 15px;
+    }
+    .revistas-statistics {
+        background-position: 73% 100%;
+    }
+    .revistas-statistics .revi-statistics-box .title {
+        width: 90%;
+    }
+    .banner {
+        padding: 100px 0 0;
+    }
+    .banner .banner-marker img {
+        width: 55px;
+    }
+    .banner .banner-content .banner-text-1 {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+    .banner .banner-content .banner-text-2 {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .banner .banner-content .banner-box {
+        font-size: 16px;
+        line-height: 1.4;
+        margin-top: 66px;
+    }
+    .banner .banner-content .banner-box .banner-info i {
+        font-size: 30px;
+    }
+    .programa-section {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .programa-section .page-title {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .programa-section .nav.flex-center-colum {
+        display: inline-block;
+        width: 100%;
+    }
+    .programa-section .nav li {
+        display: inline-block;
+        text-align: center;
+    }
+    .programa-section .nav li a {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .programa-section .timeline::after {
+        left: 0;
+    }
+    .programa-section .nav {
+        margin-bottom: 30px;
+    }
+    .timeline .col-timeline.left::before {
+        left: 30px;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #f7f7f7 transparent transparent;
+    }
+    .timeline .col-timeline::after {
+        left: -11px;
+    }
+    .timeline .col-timeline {
+        width: 100%;
+        padding-right: 0;
+    }
+    .timeline .col-timeline.left,
+    .timeline .col-timeline.right {
+        left: 0;
+    }
+    .timeline .col-timeline .content i {
+        font-size: 14px;
+        margin-right: 7px;
+        color: #0D70EB;
+    }
+    .timeline .col-timeline .content .ctn-right .time {
+        font-size: 16px;
+        line-height: 30px;
+        margin: 0;
+    }
+    .timeline .col-timeline .content .ctn-right .title {
+        font-size: 16px;
+        line-height: 20px
+    }
+    .ponentes-section {
+        padding: 35px 0 0;
+    }
+    .ponentes-section .flex-wrap-center-colum .col-xs-6 {
+        margin-bottom: 25px;
+    }
+    .ponentes-section .title {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+    .ponentes-section img {
+        margin: 15px auto 10px;
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+    }
+    .ponentes-section .name {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 7px;
+    }
+    .ponentes-section .txt {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .eventos-temp .page-intro {
+        padding-top: 0;
+    }
+    .eventos-temp .hightline {
+        font-size: 16px;
+    }
+    .eventos-temp .plan p {
+        margin-bottom: 30px;
+    }
+    .eventos-temp .page-content {
+        margin-top: 30px;
+    }
+    .somos-filter {
+        padding-bottom: 0;
+    }
+    .eventos-temp .plan ul {
+        margin: 0;
+    }
+    .eventos-content .eventos-filter .btn-round {
+        float: left;
+        margin: 0 25px 0 0;
+    }
+    .eventos-content .eventos-filter select.form-control {
+        margin-left: 0;
+    }
+    .eventos-content .eventos-ports {
+        display: inline-block;
+    }
+    .eventos-content .eventos-ports .col-sm-4 {
+        padding: 0 15px 20px;
+    }
+    .eventos-content .eventos-ports .post-ctn img {
+        height: 140px;
+        width: 100%;
+    }
+    .eventos-content .eventos-ports .btn-load-more-ajax {
+        text-align: center;
+    }
+    .main-menu .navbar-collapse {
+        padding-top: 100px;
+    }
+    .header .navbar-nav li a {
+        margin: 15px 4px;
+        display: inline-block;
+    }
+    .page-body .section-content {
+        width: 100%;
+        padding-top: 0;
+        margin-left: 0;
+        margin-bottom: 30px;
+        padding: 0 15px;
+        text-align: left;
+    }
+    .page-body .section-content.section-left {
+        float: right;
+        margin-right: 0;
+    }
+    .quienes-temp .contact .contact-content {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .revistas-temp .section-image img {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+    .revistas-temp .first .section-image img {
+        margin-top: 35px;
+        -ms-transform: rotate(6deg);
+        -webkit-transform: rotate(6deg);
+        transform: rotate(6deg);
+        width: 50%;
+    }
+    .page-body .section-content p {
+        font-size: 18px;
+    }
+    .revistas-temp .section-item {
+        height: auto;
+    }
+    .revistas-temp .page-body .section-content {
+        margin-left: 0;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .page-body .section-content h2:after {
+        margin: 10px 0;
+        width: 100px;
+    }
+    .revistas-temp .page-body .section-content h2:after, .revistas-temp .page-body .section-content a {
+        margin: 20px auto;
+    }
+    .revistas-temp .color-block .section-item .section-image img {
+        float: none;
+        margin-left: auto;
+        -ms-transform: rotate(-6deg);
+        -webkit-transform: rotate(-6deg);
+        transform: rotate(-6deg);
+    }
+    .eventos-temp .eventos-content .eventos-ports {
+        padding-top: 0;
+    }
+    .microsite-evento-template .ponentes-section {
+        padding: 35px 0;
+    }
+    .page-body .section-content {
+        width: 100%;
+    }
+    .viajes-content .somos .somos-item img {
+        width: 150px;
+    }
+    .viajes-content .tab-child .right > span {
+        display: none;
+    }
+    .viajes-content .tab-child .timeline .col-timeline.right {
+        left: 0;
+        width: 100%;
+    }
+    .viajes-content .tab-child .timeline::after {
+        left: 0;
+        top: 60px;
+    }
+    .viajes-content .tab-child .col-timeline.right .content > span {
+        display: block;
+        color: #b22222;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+    .viajes-content .programa-section {
+        padding-bottom: 15px;
+    }
+    .timeline .col-timeline .content {
+        margin-bottom: 40px;
+    }
+    .programa-section h2 {
+        margin-top: 0;
+    }
+    .banner img {
+        margin: 0 auto;
+    }
+    .banner .banner-content .banner-box {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .banner .banner-content .banner-box:first-of-type {
+        padding-bottom: 10px;
+    }
+    .banner .banner-content .banner-box:last-of-type {
+        margin: 0;
+        padding-top: 10px;
+    }
+    .noticias-section .noticias-item {
+        margin-bottom: 45px;
+    }
+    .noticias-section .noticias-item:last-of-type {
+        margin-bottom: 0;
+    }
+    .evento-owl .evento-owl-carousel {
+        position: relative;
+    }
+    .evento-owl .evento-owl-carousel .owl-nav {
+        position: absolute;
+        top: calc(50% - 14px);
+        margin: 0;
+        width: 100%
+    }
+    .evento-owl .evento-owl-carousel .owl-nav i {
+        color: #1b1b1b;
+        font-size: 20px
+    }
+    .evento-owl .evento-owl-carousel .owl-nav .owl-prev,
+    .evento-owl .evento-owl-carousel .owl-nav .owl-next {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: #fff;
+        border: 1px solid #1b1b1b;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .evento-owl .evento-owl-carousel .owl-nav .owl-prev {
+        position: absolute;
+        left: 3%
+    }
+    .evento-owl .evento-owl-carousel .owl-nav .owl-next {
+        position: absolute;
+        right: 3%
+    }
+    .evento-owl .evento-owl-carousel .owl-nav .owl-prev:hover,
+    .evento-owl .evento-owl-carousel .owl-nav .owl-next:hover {
+        background-color: #869791
+    }
+    .interior-content {
+        padding-bottom: 33px;
+    }
+    .interior-content .inter-meta,
+    .interior-content .inter-meta .inter-cat,
+    .interior-content .inter-meta .date {
+        font-size: 12px;
+    }
+    .interior-content .inter-meta {
+        margin-bottom: 8px;
+    }
+    .interior-content .inter-title h2 {
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 20px;
+    }
+    .interior-content.inter-thumb {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .interior-content .inter-thumb img {
+        margin-bottom: 30px;
+    }
+    .inter-content p,
+    .inter-content blockquote{
+        margin-bottom: 25px;
+    }
+    .inter-content blockquote {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .interior-content .inter-tab {
+        margin: 50px 0 35px;
+        padding: 0;
+    }
+    .interior-content .noticias-section {
+        padding: 31px 0;
+    }
+    .noticias-section h3.title {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 50px;
+    }
+    .noticias-section .noticias-section {
+        padding-top: 0;
+    }
+    .noticias-section .noticias-item .p-cat {
+        font-size: 12px;
+    }
+    .noticias-section .noticias-item .p-title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .evento-owl {
+        padding: 40px 0 60px;
+    }
+    .evento-owl h3.title {
+        margin-bottom: 33px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .evento-owl .evento-owl-carousel .owl-nav .owl-prev {
+        left: 0
+    }
+    .evento-owl .evento-owl-carousel .owl-nav .owl-next {
+        right: 0
+    }
+    header .btn-menu {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .actualidad-temp .eventos-content {
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+    .actualidad-temp .post-new-section {
+        padding-top: 0;
+    }
+    .actualidad-temp .eventos-content .btn-load-more-ajax a {
+        margin: 15px 0 0;
+    }
+    .actualidad-temp .eventos-content .eventos-filter label {
+        display: none
+    }
+    .actualidad-temp .eventos-content .eventos-filter select.form-control {
+        margin-top: 10px;
+        display: inline-block;
+    }
+    .actualidad-interior-single .header {
+        padding-top: 20px;
+    }
+    .interior-content .inter-contact-info .clearfix {
+        display: none;
+    }
+    .actualidad-temp .actualidad.post-new-section {
+        padding-top: 66px;
+        padding-bottom: 40px;
+    }
+    .actualidad-temp .post-new-section .post-lists {
+        padding: 0;
+        margin: 0;
+    }
+    .post-lists > h2 {
+        font-size: 22px;
+    }
+    .footer {
+        overflow: hidden;
+    }
+    .copyright p {
+        padding: 10px 0;
+    }
+    .footer-text {
+        padding: 30px 0 10px;
+    }
+    .footer-form input[type="submit"] {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .post-new-section {
+        padding-bottom: 20px;
+    }
+    .somos .somos-item img {
+        margin: 0;
+        width: 100px;
+        height: 100px
+    }
+    .somos .somos-item .item-name span {
+        font-size: 16px;
+    }
+    .somos .somos-item .item-name:after {
+        margin: 5px 0 12px;
+    }
+    .somos .somos-item .item-content {
+        width: 95%;
+        float: right;
+        margin-bottom: 30px;
+    }
+    .somos .somos-item .item-content .item-txt p {
+        font-size: 12px;
+        margin: 0;
+        line-height: 1.333;
+    }
+    .somos .somos-item:last-child {
+        margin: 0;
+    }
+    .quienes-temp .page-body .section-image img {
+        height: auto;
+        width: 100%;
+    }
+    .footer-link {
+        margin-bottom: 8px;
+    }
+    .footer-link ul {
+        float: none;
+        padding-left: 0;
+        text-align: center;
+    }
+    .footer-text .copyright {
+        text-align: center;
+    }
+    .footer {
+        padding-top: 50px;
+    }
+    .main-contain {
+        margin-bottom: 50px;
+    }
+    .viajes-temp .viajes-content {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .viajes-content .programa-section .nav.tab-parent li a {
+        padding-bottom: 30px;
+    }
+    .viajes-content .programa-section .tab-parent .active,
+    .viajes-content .programa-section .tab-parent li a:focus {
+        border-bottom: none;
+    }
+    .viajes-content .programa-section .nav.tab-parent li.active:after,
+    .viajes-content .programa-section .tab-parent li a:focus:after {
+        content: '';
+        border-bottom: 3px solid #B22222;
+        width: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -50px;
+    }
+    .quienes-temp .contact #map img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .microsite-evento-template .footer-text {
+        /* margin-top: 30px; */
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .full-header.sticky {
+        background: none;
+    }
+    .header .navbar-nav li:first-child a {
+        margin-left: 0;
+    }
+    .header .brand .logo-dk {
+        display: none;
+    }
+    .header .brand .logo-mb {
+        display: block;
+        position: relative;
+        z-index: 9999;
+    }
+    .header .sticky .main-menu {
+        background-color: rgba(204, 204, 204,0.5);
+    }
+    .header .main-menu {
+        margin-left: -9px;
+        background-color: rgba(255,255,255,0.8);
+    }
+    .header.header-home .main-menu {
+        margin-left: 0;
+    }
+    .main-menu .navbar-collapse {
+        padding-top: 70px;
+        width: 100%;
+    }
+    .header .navbar-nav li a {
+        color: #000;
+    }
+}
+@media screen and (max-width: 767px) {
+    .webform .header.interior {
+        height: 320px;
+    }
+    .jscustom-list {
+        position: relative;
+        display: inline-block;
+    }
+    .jscustom-list span {
+        position: relative;
+        display: inline-block;
+        padding: 10px 30px 10px 10px;
+        font-size: 16px;
+        line-height: 19px;
+        border: 1px solid grey;
+        cursor: pointer;
+    }
+    .jscustom-list span:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 7px solid #000;
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        -webkit-transform: translateY(-50%);
+           -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+             -o-transform: translateY(-50%);
+                transform: translateY(-50%);
+    }
+    .programa-section .jscustom-list .nav.flex-center-colum {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .programa-section .jscustom-list .nav.flex-center-colum li {
+        display: block;
+        background-color: #fff;
+    }
+    .programa-section .jscustom-list .nav.flex-center-colum li.active {
+        background-color: #0087ef;
+    }
+    .programa-section .jscustom-list .nav.flex-center-colum li a {
+        font-size: 16px;
+    }
+    .slider-home {
+        background-attachment: initial !important;
+    }
+    .header.header-home {
+        height: 550px;
+    }
+    .slider-home .owl-nav {
+        left: 15px;
+    }
+    .btn-nav img {
+        width:30px;
+    }
+    .slider-home .sld-ctn .sld-info {
+        bottom: 138px;
+    }
+    .slider-home .sld-ctn {
+        height: 550px;
+    }
+    .bg_image_home .post-new-section {
+        margin-top: -120px;
+    }
+    .revistas-temp .page-body {
+        padding-bottom: 0;
+        margin-top: -122px;
+        padding-top: 0;
+    }
+    .header {
+        height: 400px;
+        background-attachment: initial !important;
+    }
+    .header .page-title h1 {
+        margin-top: 210px;
+        font-size: 24px;
+    }
+    .background {
+        height: 80px;
+        bottom: 78px;
+    }
+    .page-node-type-page-actualidad .background {
+        display: none;
+    }
+    .page-intro {
+        margin-top: -80px;
+    }
+    .page-intro .hightline:after{
+        width: 100px;
+    }
+    .post-new-section .col-sm-8 .post-entry .p-title {
+        width: 100% !important;
+    }
+    .actualidad-temp .eventos-content .pager {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    .interior-content .inter-contact-info .text {
+        margin-bottom: 15px;
+    }
+    .header .page-title h1 {
+        font-size: 24px;
+    }
+    .page-body .section-content h2 {
+        font-size: 20px;
+    }
+    .revistas-slider .owl-nav {
+        top: 40%;
+    }
+    .page-revistas-interior > .background {
+        display: none;
+    }
+    .page-revistas-interior .revi-content {
+        padding-top: 45px;
+    }
+    .revistas-detail-mobile .inter-about-info{
+        margin-left: 105px;
+    }
+    .revistas-detail-mobile:before,
+    .revistas-detail-mobile:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .interior-content .inter-lists .col-sm-6 {
+        margin-bottom: 35px;
+    }
+    .revistas-detail-mobile .inter-name {
+        font-family: "proximanova_bold";
+    }
+    .revistas-detail-mobile .inter-name:after {
+        content: "";
+        display: block;
+        margin: 5px 0;
+        height: 1px;
+        width: 50px;
+        background: #B22222;
+    }
+    .revistas-detail-mobile img{
+        width: 95px;
+        float: left;
+        margin-right: 10px;
+    }
+    .interior-content .inter-lists {
+        margin-bottom: 10px;
+    }
+    .interior-content .inter-tab {
+        margin-top: -10px;
+        padding-bottom: 15px;
+    }
+    .event-detail-deskop, .revistas-detail-deskop {
+        display: none;
+    }
+    .office-temp .page-intro,
+    .eventos-temp .page-intro {
+        margin-top: -120px;
+    }
+    .revistas-statistics {
+        padding-top: 50px;
+    }
+    .factoria-temp .main-contain {
+        margin-bottom: 0;
+    }
+    .factoria-temp .page-content {
+        margin-top: 0;
+    }
+    .factoria-temp .logo-item {
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .factoria-temp .logo-item > div {
+        padding: 0 8px;
+        margin-bottom: 16px;
+    }
+    .factoria-temp .actualidad {
+        padding-bottom: 50px;
+    }
+    .actualidad-temp {
+        margin-top: 0;
+    }
+    .header.header-actualidad {
+        height: 285px;
+    }
+    .header.header-actualidad .page-title h1 {
+        margin-top: 180px;
+    }
+    .actualidad-temp .eventos-content .somos-filter {
+        padding: 0 15px;
+    }
+    .actualidad-temp .actualidad.post-new-section {
+        padding-top: 24px;
+    }
+    .somos-filter .btn-round {
+        border-color: #5d5d5d;
+    }
+    .actualidad-interior-single .header,
+    .header.interior {
+        height: 170px;
+    }
+    .page-node-type-viajes .viajes-temp,
+    .page-node-type-trademark .factoria-temp,
+    .actualidad-interior-single .actualidad-temp {
+        margin-top: -135px;
+    }
+    .actualidad-interior-single .inter-title {
+        padding-right: 10px;
+    }
+    .actualidad-interior-single .interior-content {
+        margin-top: -125px;
+        background: transparent;
+    }
+    .actualidad-interior-single .inter-thumb {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .page-node-type-trademark .layout p:first-of-type {
+        padding: 0;
+        margin: 0 0 15px;
+    }
+    .page-node-type-trademark .layout ul {
+        margin-bottom: 15px;
+    }
+    .factoria-img {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .factoria-temp .actualidad h2 {
+        /* margin-left: 0; */
+        font-size: 22px;
+    }
+    .microsite-evento-template .background {
+        display: none;
+    }
+    .banner-content .banner-text-1,
+    .banner-content .banner-text-2 {
+        padding: 0 30px;
+    }
+    .banner-content .banner-text-2 {
+        margin: 0 auto !important;
+        max-width: 290px;
+    }
+    .banner .banner-content .banner-box {
+        margin-top: 30px;
+    }
+    .programa-section {
+        padding-bottom: 15px;
+    }
+    .interior-content-noticias {
+        padding-top: 100px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .interior-content .inter-tab.tags {
+        margin: 30px 0 0;
+    }
+    .interior-content .inter-tab.tags a.btn-round {
+        margin-bottom: 0;
+    }
+    .noticias-section {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .noticias-section h3.title {
+        margin-bottom: 35px;
+    }
+    .page-node-type-page-conference .somos-content {
+        padding: 20px 0 50px;
+        margin-top: 30px;
+    }
+    .page-node-type-page-conference .somos-content h1 {
+        font-size: 22px;
+    }
+    .office-temp .post-new-section h2 {
+        margin-bottom: 20px;
+    }
+    .office-temp .eventos-content .section-title {
+        margin: 38px 0 -5px 15px;
+    }
+    .page-node-type-conference .page-intro {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .page-node-type-conference .square-wrap {
+        margin-bottom: 30px;
+    }
+    .office-temp .office-content h1 {
+        margin-top: 5px;
+        font-family: 'proximanova_bold';
+        font-size: 16px;
+    }
+    .page-node-type-conference .office-temp .office-content h2 {
+        font-family: "proximanova_regular";
+        font-size: 14px;
+    }
+    .page-node-type-conference .office-temp .office-info {
+        padding-right: 0;
+    }
+    .page-node-type-conference .office-temp .office-content h3 {
+        color: #FFFFFF;
+        font-family: "proximanova_regular";
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        padding: 4px 7px;
+        border-radius: 100px;
+        background-color: #B22222;
+        display: block;
+        width: 100%;
+        max-width: 140px;
+        margin-bottom: 40px;
+    }
+    .page-node-type-conference .office-temp .office-content hr {
+        margin: 30px 0;
+    }
+    .page-node-type-conference .office-info a {
+        font-size: 14px;
+    }
+    .page-node-type-conference .office-temp .eventos-content {
+        margin-top: 25px;
+        border-top: 1px solid #d8d8d8;
+    }
+    .page-node-type-conference .con_title_1 {
+        margin: 10px 0 0 15px;
+        font-size: 22px;
+    }
+    .page-node-type-conference .office-temp .somos.color-block {
+        margin-top: 0;
+        padding: 30px 0;
+    }
+    .page-node-type-conference .office-temp .post-new-section {
+        padding-top: 40px;
+    }
+    .page-node-type-conference .somos.color-block h1 {
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+    .viajes-temp .page-intro h1{
+        font-size: 24px;
+        line-height: 1.2;
+        margin: 0 20px 20px 0;
+    }
+    .viajes-temp .page-intro .viajes-info .col-md-push-4,
+    .viajes-temp .page-intro .viajes-info .viajes-left {
+        padding: 0;
+    }
+    .programa-section .nav.flex-center-colum {
+        display: block;
+        width: auto;
+        margin: 0 -15px 30px -15px;
+        padding: 0 15px;
+    }
+    .timeline .col-timeline{
+        padding: 0 0 0 20px;
+    }
+    .timeline::after {
+        top: 30px;
+    }
+    .timeline .col-timeline.left::before,
+    .timeline .col-timeline.right::before{
+        left: 10px;
+    }
+    .timeline .col-timeline .content{
+        margin-bottom: 30px;
+    }
+    .timeline .col-timeline:last-of-type .content:before {
+        left: -21px;
+        top: 32px;
+    }
+    .timeline .col-timeline.right::before,
+    .timeline .col-timeline.left::before {
+        top: 30px;
+        margin-top: 0;
+    }
+    .timeline .col-timeline.left:after,
+    .timeline .col-timeline::after {
+        top: 28px;
+        margin-top: 0;
+    }
+    .timeline .col-timeline:first-of-type .content:after {
+        bottom: auto;
+    }
+    .timeline .col-timeline:last-of-type .content:before {
+        top: 50px;
+        left: -21px;
+        right: auto;
+    }
+}
+@media screen and (max-width: 667px) {
+    .viajes-info{
+        padding-left: 15px
+    }
+    .quienes-somo {
+        padding-bottom: 50px;
+    }
+    .quienes-temp .somos h1{
+        margin: 40px 0;
+        font-size: 28px;
+    }
+    .quienes-info {
+        padding-bottom: 0;
+    }
+    .footer .ads{
+        margin: 50px 0 0;
+    }
+    .footer .row:nth-child(2) .col-xs-12 {
+        padding: 0;
+    }
+    .contact-form{
+        padding:50px 0;
+    }
+    .footer-form{
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .footer-form .form-item{
+        /* padding-right: 0; */
+    }
+    .footer-form input, .footer-form textarea{
+        width: 100%;
+    }
+    .slider-home .owl-nav .owl-prev, .slider-home .owl-nav .owl-next {
+        margin: 0;
+    }
+    .con_title_3{
+        margin-top: 50px;
+    }
+    .via_title{
+        margin-left: 10px;
+    }
+    .contact-info iframe{
+        width: 100%;
+        height: 350px;
+    }
+    .page-node-type-viajes .post-new-section {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .post-new-section {
+        padding-top: 0;
+    }
+    .viajes-info > div {
+        padding: 0;
+    }
+    .viajes-info .viajes-event-info {
+        padding: 25px 20px;
+    }
+    .viajes-content .programa-section .nav.tab-parent li {
+        margin-right: 0;
+    }
+    .viajes-content .programa-section .nav.tab-parent li + li {
+        margin-left: 10px;
+    }
+    .viajes-info .viajes-event-info .btn-load-more-ajax {
+        margin-top: 25px;
+    }
+    .slider-home .sld-ctn .sld-info{
+        width: 90%;
+    }
+    .slider-home .sld-ctn .sld-info h1{
+        line-height: 30px;
+    }
+    header .logo img {
+        width: 150px;
+        height: auto;
+        margin: 10px 0;
+        margin-left: -15px;
+    }
+    .sidenav{
+        padding-top: 120px;
+    }
+    .sidenav a{
+        font-size: 16px;
+    }
+    .office-temp hr, .viajes-temp hr{
+        margin: 0 0 20px;
+    }
+    .full-header{
+        top: 20px;
+    }
+    .full-header.sticky {
+        top: 0;
+    }
+    .quienes-temp .contact {
+        padding-bottom: 0;
+    }
+    .quienes-temp .contact .contact-content i{
+        left: 0;
+    }
+    .quienes-temp .contact h1{
+        margin-top: 40px;
+    }
+    .home-temp .post-new-section {
+        padding-bottom: 30px;
+    }
+    .slider-home .sld-ctn .sld-info h1{
+        margin-bottom: 22px;
+    }
+    .form-item {
+        /* padding-left: 0; */
+        /* float: left; */
+    }
+    .eventos-temp .actualidad h2 {
+        margin-left: 10px;
+    }
+    .somos-filter{
+        margin: 24px 0;
+    }
+    .filter-form label{
+        display: none;
+    }
+    .filter-form button{
+        margin-top: 0 !important;
+        padding: 5px 12px !important;
+        float: left;
+        border-color: #dedede;
+        margin-left: 0;
+        background:  transparent;
+        font-size: 14px;
+    }
+    .somos-filter .btn-round i {
+        padding: 0 5px;
+    }
+    .filter-form .form-item input{
+        position: relative;
+        color: #5d5d5d;
+        font-size: 14px;
+        margin: 0;
+        padding: 0 5px 0 30px;
+        min-width: 100px !important;
+        width: 100px !important;
+        border-radius: 25px;
+        margin-right: 15px;
+        background:  transparent;
+        border-color: #5d5d5d;
+        height: 32px;
+        box-shadow: none;
+        -webkit-appearance: none;
+        -moz-appearance: textfield;
+        appearance: none;
+    }
+    .filter-form .form-item input::placeholder {
+        color: #5d5d5d;
+    }
+    .filter-form .form-submit {
+        height: 32px;
+        font-size: 14px;
+    }
+    .filter-form .form-item.form-item-name:after {
+        position: absolute;
+        left: 8px;
+        margin-left: 0;
+        top: 7px;
+    }
+    .filter-form .form-item{
+        float: none;
+        margin: 10px 0;
+        display: none;
+    }
+    .filter-form .form-item-name {
+        position: relative;
+        display: block !important;
+        margin-top: 0;
+        float: left;
+    }
+    .filter-form .form-submit{
+        margin-left: 0 !important;
+        width: 110px;
+    }
+    .select2-container {
+        width: 270px !important;
+    }
+    .views-view-grid {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .eventos-content .eventos-ports .post-ctn img{
+        height: 100%
+    }
+    .header{
+        padding-top: 20px;
+    }
+
+    .somos-content .somos-ports{
+        padding-top: 0;
+    }
+    .eventos-content .eventos-filter{
+        margin-bottom: 0;
+    }
+    .viajes-temp.eventos-content .eventos-filter {
+        margin-bottom: 30px;
+    }
+    .eventos-filter .form-text{
+        left: 110px
+    }
+    .logo-item div div{
+        /* height: auto; */
+    }
+    .logo-item img{
+        width: 100%;
+    }
+    .factoria-img{
+        width: 122px;
+        margin-left: -5px;
+    }
+    .page-intro {
+        padding-top: 0;
+    }
+    .factoria-content p{
+        padding: 15px 0;
+    }
+    .factoria-content h1{
+        margin-top: 10px
+    }
+    .main-contain .logo-item img{
+        width: 100%;
+    }
+    .event-detail-mobile,.revistas-detail-mobile{
+        display: block;
+    }
+    .event-detail-deskop, .revistas-detail-deskop{
+        display: none;
+    }
+    .revistas-detail-mobile {
+        margin-bottom: 25px
+    }
+    .revistas-detail-mobile .inter-name{
+        font-family: "proximanova_bold";
+    }
+    .revistas-detail-mobile .inter-name:after {
+        content: "";
+        display: block;
+        margin: 5px 0;
+        height: 1px;
+        width: 50px;
+        background: #B22222;
+    }
+    .viajes-temp .eventos-content {
+        margin-top: 20px;
+        padding-top: 40px;
+    }
+    .viajes-temp .eventos-filter.filter-form {
+        margin-bottom: 40px;
+    }
+    .viajes-temp .eventos-filter.filter-form .btn-round {
+        margin-right: 15px;
+    }
+    .timeline .col-timeline.left::before {
+        top: 30px;
+        margin-top: 0;
+    }
+
+}
+@media screen and (max-width: 639px) {
+    .factoria-temp .page-content .page-body h2 {
+        max-width: 100%;
+    }
+    .eventos-content .eventos-ports .post-ctn img {
+        width: 100%;
+        height: auto;
+    }
+    .interior-content .inter-tab .btn-round {
+        margin-bottom: 20px;
+    }
+    .interior-content .inter-tab .btn-round.red {
+        display: inline-block;
+    }
+    .interior-content .inter-tab .btn-round {
+        margin-right: 20px;
+    }
+    .plan {
+        margin-top: 30px;
+    }
+
+    .header .navbar-nav li {
+        text-align: center;
+        font-size: 19px;
+        padding-bottom: 5px;
+    }
+    .header .navbar-nav li a:hover, .header .navbar-nav li.active a {
+        border-bottom: 3px solid #ccc;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    .post-new-section .post-item .post-bg .post-entry .p-name {
+        display: inline-block;
+        padding-right: 5px;
+    }
+    .journals-slider .owl-nav {
+        top: 25%;
+    }
+    .journals-slider .owl-nav .owl-prev, .journals-slider .owl-nav .owl-next {
+        width: 45px;
+        height: 45px;
+    }
+    .journals-slider.owl-theme .owl-nav [class*=owl-] {
+        font-size: 28px;
+    }
+    .footer-link ul li a {
+        color: #979797;
+        font-size: 12px;
+        line-height: 19px;
+        text-align: center;
+        padding: 0 9px;
+        padding-right: 10px;
+    }
+    .footer-link ul li:last-child a {
+        padding-right: 0;
+    }
+    .copyright p {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 579px) {
+    .revistas-slider .owl-nav {
+        top: 35%;
+    }
+    .page-revistas-interior .revistas-slider {
+        padding-bottom: 40px;
+    }
+    .owl-item.center .journals-info {
+        margin: 35px -5px 0 -5px;
+        /* width: auto; */
+    }
+    .revistas-slider .journals-info a {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    .revistas-slider .journals-info a.btn-round {
+        margin-top: 20px;
+    }
+    .interior-content .inter-files-attach .flie {
+        width: 100%;
+        margin: 0 0 35px;
+    }
+    .plan {
+        margin-top: 30px;
+    }
+    .header {
+        background-size: cover !important;
+    }
+    .page-revistas-interior .header {
+        background-position: -600px !important;
+    }
+}
+@media screen and (max-width: 449px) {
+    .slider-home {
+        height: 420px;
+    }
+    .home-temp .post-new-section {
+        padding-top: 180px;
+        margin: 0;
+    }
+    .post-new-section .post-item .post-bg {
+        max-height: 100%;
+    }
+    .quienes-temp .page-body .section-image img {
+        height: 230px;
+        width: auto;
+    }
+    .slider-home .sld-ctn .sld-info {
+        bottom: 30px;
+    }
+    .owl-item .journals-img img {
+        min-height: 1px;
+    }
+    .revistas-slider .owl-nav .owl-prev {
+        left: 10%;
+    }
+    .revistas-slider .owl-nav .owl-next {
+        right: 10%;
+    }
+    .page-body .section-content {
+        padding-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+    .page-body .section-content.section-left {
+        float: none;
+        margin-right: 0;
+    }
+    .plan {
+        margin-top: 30px;
+    }
+    .viajes-content .somos .somos-item img {
+        width: 100px;
+        height: 100px;
+    }
+    .somos .somos-item {
+        margin-bottom: 10px;
+    }
+    .somos .somos-item .item-content {
+        width: 78%;
+        background: #fff;
+        margin-top: -50px;
+        position: relative;
+        z-index: 1;
+        padding: 10px 15px;
+        text-align: left;
+        float: right;
+        margin-bottom: 15px;
+    }
+    .somos .somos-item .item-name:after {
+        width: 30px;
+    }
+    .viajes-content .inner-wrap {
+        margin: 30px -15px 0 -15px;
+        padding: 25px 15px;
+        background-color: #F7F7F7;
+    }
+    .page-node-type-page-home .background {
+        display: none;
+    }
+    .slider-home:before {
+        content: "";
+        position: absolute;
+        height: 70px;
+        background: #ffffff;
+        left: 0;
+        right: 15px;
+        bottom: -2px;
+    }
+    .slider-home .sld-ctn .sld-info p {
+        display: none;
+    }
+    .slider-home .sld-ctn {
+        height: 350px;
+        overflow: hidden;
+    }
+    .slider-home .sld-ctn .sld-info h1:after {
+        display: none;
+    }
+    .slider-home .sld-ctn .sld-info {
+        bottom: 0;
+    }
+    .mobile-item {
+        display: block;
+        padding: 12px 30px 0 15px;
+        margin-top: 20px;
+    }
+    .mobile-item p {
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: bold;
+    }
+    .slider-home .owl-nav{
+        bottom: 20%;
+        left: 2%;
+    }
+    .slider-home .sld-ctn .sld-info h1 {
+        padding: 0;
+    }
+
+    .somos-content .somos-filter select.form-control {
+        width: 90%;
+        margin: 5px auto;
+    }
+    .header.header-home{
+        height: 370px;
+    }
+    .somos-content .form-group i {
+        font-size: 20px;
+        position: absolute;
+        top: 150px;
+        right: 25px;
+    }
+    .navbar-toggle .icon-bar {
+        width: 25px;
+    }
+    .navbar-toggle .icon-bar:nth-child(2) {
+        width: 20px;
+    }
+    .navbar-toggle .icon-bar + .icon-bar {
+        margin-top: 6px;
+    }
+    .footer-content p {
+        width: 100%;
+    }
+    .viajes-temp .page-intro .viajes-info .col-md-push-4,
+    .viajes-temp .page-intro .viajes-info .viajes-left {
+        margin-left: -15px;
+        margin-right: -15px;
+        width: auto;
+    }
+}
+@media screen and (max-width: 375px) {
+    .home-temp .post-new-section {
+        padding-top: 200px;
+    }
+    .page-body .section-content {
+        padding-top: 20px;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .page-body .section-content.section-left {
+        float: none;
+        margin-right: 0;
+    }
+    .plan {
+        margin-top: 30px;
+    }
+
+
+    .navbar-collapse {
+        padding: 0 15px;
+    }
+
+    .quienes-temp .page-body .section-image img {
+        width: auto;
+        max-width: 100%;
+    }
+    .eventos-content .eventos-filter .btn-round {
+        margin-right: 5px;
+        padding: 6px 7px;
+    }
+    .eventos-content .eventos-ports {
+        padding-top: 30px;
+    }
+    .viajes-content .timeline .col-timeline.left::after, .viajes-content .timeline .col-timeline.right::after {
+        left: -12px;
+    }
+    .viajes-content .programa-section {
+        padding-bottom: 15px;
+    }
+    .somos .somos-item img {
+        width: 100px;
+        height: 100px;
+    }
+    .hightline:after {
+        width: 100%;
+    }
+    .page-intro .hightline:after {
+        width: 105px;
+    }
+}
+@media screen and (max-width: 359px) {
+    .journals-slider .owl-nav {
+        top: 20%;
+    }
+    .interior-content .inter-ct-left .revi-about img {
+        width: 154px;
+        height: 154px;
+    }
+    .page-body .section-content {
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+    .page-body .section-content.section-left {
+        float: none;
+        margin-right: 0;
+    }
+    .plan {
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .interior-content .inter-contact-info a {
+        margin-right: 38px;
+    }
+    .interior-content .inter-contact-info .clearfix + a {
+        margin: 0;
+    }
+    .somos-filter .btn-round,
+    .filter-form .form-item input {
+        margin-right: 9px;
+    }
+    .filter-form .form-submit {
+        width: 84px;
+        min-width: inherit;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer-form {
+        padding-left: 0;
+    }
+    .footer-form .js-form-item {
+        width: 100%;
+    }
+    .viajes-info{
+        padding: 0;
+    }
+}

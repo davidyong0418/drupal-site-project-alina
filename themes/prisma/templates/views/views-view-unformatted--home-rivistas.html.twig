@@ -1,0 +1,19 @@
+
+
+<div class="journals-section container-fluid">
+    <h3 class="title text-center">Revistas</h3>
+
+    <div class="row">
+        <!-- // Slider Carousel \\ -->
+        <div class="journals-slider owl-carousel owl-theme">
+            {% for key,row in rows %}
+                <div class="item">
+                    {{row.content}}
+                </div>
+            {% endfor%}
+        </div>
+        <!-- // Slider Carousel \\ -->
+    </div>
+
+</div>
+<!--// POST LIST \\-->

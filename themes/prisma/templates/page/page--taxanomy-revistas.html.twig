@@ -1,0 +1,21 @@
+{%
+  set root_path = ['taxonomy-revistas']
+%}
+<!-- Header Section -->
+<!-- /Footer Section -->
+
+<div id="main">
+    <div class="header" style="background: url('/themes/prisma/assets/images/revistas.png'); background-size: cover;">
+{% include directory ~ '/templates/header/header-page.html.twig' %}
+</div>
+
+    <div class="wrap revistas-temp">
+        <div class="page-intro page-body">
+            {{page.content}}
+
+        </div>
+    </div>
+
+    {% include directory ~ '/templates/footer/footer.html.twig' %}
+
+</div>

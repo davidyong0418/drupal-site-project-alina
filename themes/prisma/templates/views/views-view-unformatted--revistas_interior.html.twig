@@ -1,0 +1,16 @@
+
+
+<div class="revistas-slider owl-carousel owl-theme">
+    {% for key,row in rows %}
+{{ row.title}}
+<div class="item">
+	{{ dump(row) }}
+    <div class="item-box">
+        {{row.content}}
+    </div>
+</div>
+    {% endfor%}
+
+    <!-- // Slider Carousel \\ -->
+</div>
+

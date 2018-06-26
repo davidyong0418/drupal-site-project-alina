@@ -1,0 +1,44 @@
+<!-- Header Section -->
+<div class="header" style="background: url('/themes/prisma/assets/images/office.png'); background-size: cover;">
+    {% include directory ~ '/templates/header/header-page.html.twig' %}
+</div>
+<div class="background"></div>
+<div class="wrap office-temp">
+    <div class="main-contain">
+        <div class="page-intro container">
+            {{ page.content }}
+        </div>
+
+        <div class="page-content somos-content">
+            <div class="container">
+            <div class=" page-body somos-ports">
+                {{page.page_conference}}
+                </div>
+            </div>
+        </div>
+        <div class="container eventos-content">
+            <div class="post-lists row">
+                <h2 class="section-title">Eventos pasados y futuros</h2>
+                <div class="eventos-ports flex-wrap-center-colum">
+                    {{page.eventos_widget}}
+                </div>
+            </div>
+        </div>
+        <hr />
+
+        <!--// POST LIST \\-->
+        <!--// POST LIST \\-->
+        <div class="container actualidad post-new-section">
+            <div class="post-lists row">
+                <h2 class="section-title">Actualidad</h2>
+                {{page.actualidad_widget}}
+            </div>
+        </div>
+    </div>          
+</div>
+
+<!-- Footer Section -->
+
+{% include directory ~ '/templates/footer/footer.html.twig' %}
+
+<!-- /Footer Section -->

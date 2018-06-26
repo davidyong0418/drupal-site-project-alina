@@ -1,0 +1,14 @@
+
+<section class="container">
+    <div class="evento-owl">
+        <h3 class="title text-center">Colaboradores</h3>
+        <div class="evento-owl-carousel owl-carousel owl-theme">
+            {% for key,row in rows %}
+
+                <div class="item" style="background-image: url('{{file_url(row['content']['#row']._entity.field_image.entity.fileuri)}}')" ></div>
+            {%endfor%}
+
+
+        </div>
+    </div>
+</section>

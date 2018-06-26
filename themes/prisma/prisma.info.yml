@@ -1,0 +1,50 @@
+name: Prisma
+type: theme
+description: 'Designed & Developed by huynhtuvinh87@gmail.com'
+package: core
+# core: 8.x
+
+#Libraries
+libraries:
+  - prisma/bootstrap
+  - prisma/fontawesome
+  - prisma/global-components
+
+#Regions
+regions:
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+  main_slide: 'Main Slide'  
+  home_actualidad: 'Home Actualidad'
+  page_actualidad: 'Page Actualidad'
+  home_rivistas: 'Home Revistas' 
+  page_revistas: 'Page Revistas'
+  revistas_interior_widget: 'Revistas interior widget'
+  revistas_statistics_widget: 'Revistas statistics'
+  page_conference: 'Page Conference'
+  page_viajes: 'Page Viajes'
+  page_title: 'Page Title'
+  content: 'Content'
+  team_widget: 'Team Widget'
+  product_widget: 'Product widget'
+  address_widget: 'Address widget'
+  trademark_widget: 'Trademark widget'
+  page_eventos: 'Page Eventos'
+  eventos_widget: 'Eventos Widget'
+  actualidad_widget: 'Actualidad widget'
+  contact_form_widget: 'Contact form widget'
+  noticias_widget: 'Noticias'
+  ponentes_widget: 'Ponentes'
+  colaboradores_widget: 'Colaboradores'
+  patrocinadores_widget: 'Patrocinadores'
+  category_tab: 'Category Tab'
+  related: 'Related Conference'
+  related_actualidad: 'Related Actualidad'
+  footer_menu: 'Footer Menu'
+  auto_hidden_block: 'Auto hidden blocks'
+
+# Information added by Drupal.org packaging script on 2017-11-28
+version: '8.x-1.2'
+core: '8.x'
+project: 'prisma'
+datestamp: 1511893799

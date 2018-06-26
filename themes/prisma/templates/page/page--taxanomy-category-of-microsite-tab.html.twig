@@ -1,0 +1,117 @@
+<div id="main" class="microsite-evento-template">
+    {% include directory ~ '/templates/header/header-microsite.html.twig' %}
+
+    <!-- MAIN CONTENT -->
+    <div class="wrap">
+
+        <!-- // BANNER \\ -->
+        <div class="banner" style="background-image: url('/themes/prisma/assets/images/eventos-bg2.png')">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2 banner-marker">
+                        <img class="img-responsive" src="/themes/prisma/assets/images/marker.png" alt="" />
+                    </div>
+
+                    <div class="col-sm-8">
+                        <div class="row">
+                            <div class="banner-content text-center">
+                                <h1 class="banner-text-1">{{node.getTitle()}}</h1>
+                                <div class="banner-text-2">{{ node.body.value|t }}</div>
+                                <div class="flex-wrap-center-colum">
+                                    <div class="col-sm-5 col-xs-12 banner-box">
+                                        <div class="banner-info">
+                                            <i class="fa fa-calendar-o" aria-hidden="true"></i> <span>{{node.field_time.value}}</span>
+                                        </div>
+                                        <div class="banner-info">
+                                            <i class="fa fa-clock-o" aria-hidden="true"></i> <span>{{node.field_clock.value}}</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-5 col-xs-12 banner-box">
+                                        <div class="banner-info">
+                                            <i class="fa fa-location-arrow" aria-hidden="true"></i> <span>
+                                            {{ node.field_location.value|t }}
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- // BANNER \\ -->
+
+
+        <!-- // Programa \\ -->
+        <section class="programa-section" id="programa">
+            <div class="container">
+                <h1 class="page-title text-center">Programa</h1>
+                {{page.content}}
+            </div>
+        </section>
+        <!-- // Programa \\ -->
+
+        <!-- // Ponentes \\ -->
+        <section id="ponentes" class="ponentes-section">
+            <div class="container">
+                <div class="row">
+                    <h2 class="title text-center" >Ponentes</h2>
+                    <div class="text-center">
+                        {{page.ponentes_widget}}
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- // Ponentes \\ -->
+
+        <!-- // Noticias \\ -->
+        <section class="noticias-section" id="noticias">
+            {{page.noticias_widget}}
+        </section>
+        <!-- // Noticias \\ -->
+        <section class="container" id="patrocinadores">
+            {{page.patrocinadores_widget}}
+        </section>
+          <section class="container" id="colaboradores">
+            {{page.colaboradores_widget}}
+        </section>
+
+
+
+    </div>
+    <!-- MAIN CONTENT -->
+
+    <!-- // FOOTER \\ -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 footer-content">
+                    <h1>Contacta con nosotros</h1>
+                    <p>¿Necesitas ayuda en algo? Rellena este formulario y nos pondremos en contacto contigo lo antes posible.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class='footer-form'>
+                        {% if page.contact_form_widget %}
+                            <div class="row">
+                                {{ page.contact_form_widget}}
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footer-text">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 copyright">
+                        <p>© Copyright I Encuentro Planeta Vial, todos los derechos reservados  </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // FOOTER \\ -->
+
+</div>

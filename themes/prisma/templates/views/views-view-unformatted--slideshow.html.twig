@@ -1,0 +1,46 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_slideshow()
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="container">
+
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <a class="left" href="#carousel" data-slide="prev" style=" position: absolute; top: 8%">
+            <img src="/themes/prisma/images/icons/icon_left.png">
+        </a>
+        <a class="right" href="#carousel" data-slide="next" style=" position: absolute; top: 30%">
+            <img src="/themes/prisma/images/icons/icon_right.png">
+        </a>
+
+        <div class="carousel-inner" style="left: 80px">
+            {% for key,row in rows %}
+                {%if(key==0)%}
+                    <div{{ row.attributes }}  class="item active" style="width: 500px">
+                    {%else%}
+                        <div{{ row.attributes }}  class="item" style="width: 500px">
+                        {%endif%}
+
+                        {{ row.content }}
+                    </div>
+                {% endfor %}    
+            </div>
+
+        </div>
+
+    </div>
+
